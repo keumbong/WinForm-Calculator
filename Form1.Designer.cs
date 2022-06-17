@@ -219,7 +219,7 @@ namespace WinForm_Calculator
             // 
             this.button11.BackColor = System.Drawing.SystemColors.Control;
             this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button11.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button11.Location = new System.Drawing.Point(138, 350);
             this.button11.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.button11.Name = "button11";
@@ -233,7 +233,7 @@ namespace WinForm_Calculator
             // 
             this.button12.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button12.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button12.Location = new System.Drawing.Point(201, 350);
             this.button12.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.button12.Name = "button12";
@@ -247,7 +247,7 @@ namespace WinForm_Calculator
             // 
             this.button13.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button13.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button13.Location = new System.Drawing.Point(201, 140);
             this.button13.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.button13.Name = "button13";
@@ -261,7 +261,7 @@ namespace WinForm_Calculator
             // 
             this.button14.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button14.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button14.Location = new System.Drawing.Point(201, 209);
             this.button14.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.button14.Name = "button14";
@@ -275,7 +275,7 @@ namespace WinForm_Calculator
             // 
             this.button15.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button15.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button15.Location = new System.Drawing.Point(201, 279);
             this.button15.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.button15.Name = "button15";

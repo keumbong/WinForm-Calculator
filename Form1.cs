@@ -41,7 +41,7 @@ namespace WinForm_Calculator
             string operand_s = cal_btn.Text;
            
 
-            processBox.Text = processBox.Text + " " + resultBox.Text + " " + operand_s;
+            processBox.Text = processBox.Text + resultBox.Text + operand_s;
           
 
             switch (operand)
@@ -81,11 +81,21 @@ namespace WinForm_Calculator
 
         private void btn_del_Click(object sender, EventArgs e) //del 최근에 쓴 문자 제거
         {
+            if(operand == "" && operandPerformed == true)
+            {
+                result = 0;
+                operandPerformed = false;
+                resultBox.Text = "0";
+                processBox.Text = "";
+            }
+
             if (resultBox.Text != "0" && operand != "=" && resultBox.Text.Length > 0)
             {
-                resultBox.Text = resultBox.Text.Substring(0, resultBox.Text.Length - 1);
-                processBox.Text = processBox.Text.Substring(0, processBox.Text.Length - 1);
+
+                resultBox.Text = "0";
+                
             }
+
         }
 
         private void btn_dot_Click(object sender, EventArgs e) // 실수 계산을 위한 이벤트
